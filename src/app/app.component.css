@@ -1,0 +1,109 @@
+
+.fa-circle-check,.fa-circle-arrow-right {
+    margin-right: 10px;
+    color: rgb(8, 95, 167);
+
+}
+.fa-trash-can {
+    color: red;
+}
+
+.fa-pen {
+    color: orange;
+    margin-right: 10px;
+
+}
+
+button[disabled] .fa-circle-check {
+    color: lightgray;
+}
+
+button[disabled] .fa-trash-can {
+    color: rgb(114, 109, 109);
+}
+
+.fa-circle-plus {
+    color: rgb(8, 167, 58);
+    margin: unset;
+}
+
+.add-class {
+    border-radius: 8px;
+    padding: 6px 20px;
+    background-color: rgb(8, 167, 58);
+    color: white;
+    border: unset !important;
+}
+
+.update-class {
+    border-radius: 8px;
+    padding: 6px 20px;
+    background-color: rgb(214, 188, 16);
+    color: white;
+    border: unset !important;
+}
+
+.icon-button {
+    border: unset !important;
+    background-color: unset !important;
+}
+
+button[disabled] {
+    background-color: grey;
+    color: black;    
+}
+
+input {
+    width: 75%;
+}
+
+.input-class {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+}
+
+.todo-layout {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.title {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.todo-container {
+    background: linear-gradient(to right, #a676b6, #78acd9);
+    height: 100vh;
+    padding: 20px;
+}
+
+.progress-container {
+    background: linear-gradient(to right, #d1a8a1, #899cd7);
+    height: 100vh;
+    padding: 20px;
+}
+
+.done-container {
+    background: linear-gradient(to right, #82acaf, #684264);
+    height: 100vh;
+    padding: 20px;
+}
+
+.task-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+}
